@@ -39,7 +39,7 @@ The incident and deployment timestamps demonstrate sequence, not causation. The 
 5. `durable-store.mjs` and `durable-demo.mjs`: persistence through the same tool contract.
 6. `test/`: positive controls, denial assertions, framing, replay and process-crash tests.
 
-Read the [step-by-step baseline walkthrough](https://www.ketankhairnar.com/deep-dives/mcp-engineering/06_worked_example/) and the [durability extension](DURABILITY.md). The full source/evidence ledger remains with the [deep-dive handbook](https://github.com/ketankhairnar/myweb/tree/main/docs/research/mcp-2026).
+Read the [step-by-step baseline walkthrough](https://www.ketankhairnar.com/deep-dives/mcp-engineering/06_worked_example/) and the [durability extension](DURABILITY.md). The public [operator-evidence chapter](https://www.ketankhairnar.com/deep-dives/mcp-engineering/04_operator_evidence/) and protocol chapters link the primary sources behind the design decisions.
 
 ## Eleven tests, multiple assertions
 

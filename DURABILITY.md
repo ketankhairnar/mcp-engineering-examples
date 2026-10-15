@@ -73,3 +73,7 @@ The tests send `SIGKILL` to disposable child processes, not to the test runner o
 - SQLite schema creation is teaching setup, not a production migration strategy. Backups, restores, encryption, durable authorization, quotas, monitoring, and recovery objectives remain separate work.
 
 For a companion repository, keep this as the second progressive example after the baseline. The next example should add the authenticated HTTP boundary without quietly changing these operation semantics.
+
+## Storage references
+
+See the [Node SQLite API](https://nodejs.org/docs/latest-v22.x/api/sqlite.html), [SQLite WAL documentation](https://sqlite.org/wal.html), and [SQLite transaction semantics](https://sqlite.org/lang_transaction.html) for the driver and storage behavior. The process-kill tests demonstrate only the cases described above.
