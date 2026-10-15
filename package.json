@@ -1,0 +1,20 @@
+{
+  "name": "mcp-engineering-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "demo": "node client.mjs",
+    "demo:durable": "node durable-demo.mjs",
+    "test:durable": "node --test test/durable.test.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "@modelcontextprotocol/server": "2.3.1",
+    "zod": "4.6.7"
+  }
+}
